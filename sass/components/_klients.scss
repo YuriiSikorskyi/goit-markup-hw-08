@@ -1,0 +1,38 @@
+.klients__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+
+  color: var(--title-text-color);
+  margin-bottom: 50px;
+}
+
+.klients__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.klients__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  color: #afb1b8;
+
+  transition: color var(--anim-fast);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.klients__icon {
+  fill: currentColor;
+}

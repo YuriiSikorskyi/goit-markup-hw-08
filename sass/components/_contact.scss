@@ -1,0 +1,40 @@
+.contact {
+	display: flex;
+	margin-left: auto;
+}
+
+.contact .link {
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+
+.contact .contact__item:not(:last-child) {
+	margin-right: 50px;
+}
+
+.contact__mail,
+.contact__tel {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+
+	font-weight: 500;
+	font-size: 14px;
+	line-height: calc(16 / 14);
+	letter-spacing: 0.02em;
+	color: var(--main-text-color);
+
+	transition: color var(--anim-fast);
+}
+
+.contact__mail:hover,
+.contact__mail:focus,
+.contact__tel:focus,
+.contact__tel:hover {
+	color: var(--accent-color);
+}
+
+.contact--icon {
+	fill: currentColor;
+}

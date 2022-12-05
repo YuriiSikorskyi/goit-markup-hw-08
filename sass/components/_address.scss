@@ -1,0 +1,40 @@
+
+.address__link,
+.address__mail,
+.address__tel {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+
+.address__item {
+	margin-bottom: 9px;
+}
+
+.address__item:last-child {
+	margin-bottom: 0px;
+}
+
+.address__link,
+.address__mail,
+.address__tel {
+	font-style: normal;
+	line-height: 24px;
+	color: var(--main-background);
+
+	transition: color var(--anim-fast);
+}
+
+.address__mail,
+.address__tel {
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.address__link:hover,
+.address__link:focus,
+.address__mail:hover,
+.address__mail:focus,
+.address__tel:focus,
+.address__tel:hover {
+	color: var(--accent-color);
+}

@@ -1,0 +1,36 @@
+.working {
+	padding-top: 0;
+}
+
+.working__title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: calc(42 / 36);
+	text-align: center;
+
+	color: var(--title-text-color);
+	margin-bottom: 50px;
+}
+
+.working__list {
+	display: flex;
+	gap: 30px;
+}
+
+.working__item {
+	position: relative;
+}
+
+.working__overlay-text {
+	text-transform: uppercase;
+	color: #ffffff;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 70px;
+	font-weight: 700;
+	background-color: rgba(47, 48, 58, 0.8);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

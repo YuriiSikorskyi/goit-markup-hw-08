@@ -1,0 +1,34 @@
+// utils styles
+@import './utils/variables';
+@import './utils/visually-hidden';
+
+// base styles
+@import './base/base';
+@import './base/reset';
+
+// components styles
+@import './components/section';
+@import './components/container';
+// Сторінка Студія
+@import './components/header';
+@import './components/logo';
+@import './components/nav';
+@import './components/contact';
+@import './components/btn';
+@import './components/hero';
+@import './components/about';
+@import './components/working';
+@import './components/team';
+@import './components/socials-contacts';
+@import './components/klients';
+@import './components/footer';
+@import './components/address';
+@import './components/subscribe';
+
+// Сторінка Портфоліо
+@import './components/filter';
+@import './components/portfolio-list';
+
+// модальне вікно
+@import './components/backdrop';
+@import './components/modal';

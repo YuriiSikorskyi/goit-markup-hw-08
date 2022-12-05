@@ -1,0 +1,15 @@
+.header {
+  border-bottom: 1px solid #ececec;
+}
+
+.header__conteiner {
+  display: flex;
+  align-items: center;
+}
+
+.header--logo {
+	color: var(--logo-text);
+}
+
+
+

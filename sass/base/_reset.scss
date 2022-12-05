@@ -1,0 +1,30 @@
+.list {
+	list-style: none;
+	padding-left: 0;
+	margin: 0;
+}
+
+.link {
+	text-decoration: none;
+	/* color: inherit; */
+}
+
+h1,
+h2,
+h3,
+p {
+	margin: 0;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+
+
+.addresss {
+	/* або через клас .footer-address */
+	font-style: normal;
+}
