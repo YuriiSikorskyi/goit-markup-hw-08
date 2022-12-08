@@ -1,7 +1,12 @@
 .filter__list {
 	display: flex;
 	margin-bottom: 50px;
-	justify-content: center;
+	flex-wrap: wrap;
+	gap: 8px;
+
+	@media screen and (min-width: 768px) {
+			justify-content: center;
+	}
 }
 
 .filter__btn {
@@ -20,10 +25,6 @@
 	cursor: pointer;
 
 	transition: background var(--anim-fast), box-shadow var(--anim-fast), color var(--anim-fast);
-}
-
-.filter__item:not(:last-child) {
-	margin-right: 8px;
 }
 
 .filter__btn:hover,

@@ -2,12 +2,6 @@
 	display: flex;
 	flex-wrap: wrap;
 	gap: 30px;
-	margin-right: calc(-1 * var(--indent));
-	margin-bottom: calc(-1 * var(--indent));
-}
-
-.portfolio__item {
-	flex-basis: calc(100% / var(--item) - var(--indent));
 }
 
 .portfolio__subtitle {
@@ -28,9 +22,12 @@
 }
 
 .portfolio__description--border {
-	padding: 20px 24px;
+	padding: 20px 0;
+	padding-left: 24px;
+	
 	border: 1px solid var(--shadow);
 	border-top: none;
+
 }
 
 .portfolio__link {

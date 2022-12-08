@@ -1,11 +1,18 @@
 .klients__title {
   font-weight: 700;
-  font-size: 36px;
-  line-height: calc(42 / 36);
+font-size: 28px;
+	line-height: calc(33/28);
   text-align: center;
 
   color: var(--title-text-color);
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+
+@media screen and (min-width: 1200px) {
+		font-size: 36px;
+			line-height: calc(42 / 36);
+			margin-bottom: 50px;
+}
+
 }
 
 .klients__list {
@@ -13,13 +20,14 @@
   justify-content: center;
   align-items: center;
   gap: 30px;
+	flex-wrap: wrap;
 }
 
 .klients__link {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 170px;
+  width: 210px;
   height: 92px;
   border: 1px solid currentColor;
   border-radius: 4px;
@@ -30,7 +38,17 @@
   &:hover,
   &:focus {
     color: var(--accent-color);
-  }
+		}
+
+		@media screen and (min-width: 768px) {
+			width: 226px;
+		}
+
+	@media screen and (min-width: 1200px) {
+width: 170px;
+}
+
+  
 }
 
 .klients__icon {

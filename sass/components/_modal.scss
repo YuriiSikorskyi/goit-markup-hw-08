@@ -1,6 +1,6 @@
 .modal {
-  min-height: 581px;
-  width: 528px;
+  min-height: 609px;
+  width: 450px;
   padding: 40px;
   position: absolute;
   top: 50%;
@@ -13,6 +13,13 @@
   border-radius: 4px;
 
   transition: transform var(--anim-fast), opacity var(--anim-fast), scale 500ms linear;
+
+	@media screen and (min-width: 1200px) {
+		min-height: 581px;
+			width: 528px;
+	}
+
+
 }
 
 .button-close {
@@ -146,6 +153,14 @@
 			align-items: center;
 			justify-content: center;
   user-select: none;
+
+	@media screen and (max-width: 1199px) {
+				font-weight: 400;
+					font-size: 12px;
+					line-height: calc(14/12);
+					letter-spacing: 0.03em;
+		}
+
 
 }
 
